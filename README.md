@@ -5,3 +5,10 @@ javaWeb购物网站
   + 分为两个模块：顾客模块和后台管理模块
   + 前端采用html、css、js编写，使用jquery技术和ajax请求
   + 后端使用java语法开发，采用JavaBean、Servlet、JDBC、session、cookie和filter等技术
+
+
+
+
+
++ 作者：颜经全
++ 学号：201930344244
