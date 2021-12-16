@@ -1,0 +1,135 @@
+html{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+/* 头部 */
+#head {
+	height: 10%;
+	position: relative;
+	background: whitesmoke;
+	/* border: 1px solid red; */
+}
+
+/* 超链接部分 */
+#Super_link {
+	height: 100%;
+	width: 60%;
+	position: absolute;
+	right: 0;
+	/* border: 1px solid blue; */
+}
+
+#head_Super_link {
+	position: relative;
+	height: 50%;
+	/* border: 1px solid red; */
+	margin: 0.9% 0px;
+
+}
+
+#head_Super_link div {
+	position: relative;
+	float: left;
+	margin: 0px 5px;
+}
+
+#head_Super_link .login_or_reg{
+	display: none;
+}
+/*显示昵称*/
+#head_Super_link .login_or_reg #pet_name{
+
+}
+/*注销*/
+#head_Super_link .login_or_reg #log_off{
+	color: red;
+}
+#head_Super_link img {
+	height: 20px;
+	width: 20px;
+}
+
+#head_Super_link a {
+	text-decoration: none;
+	color: cadetblue;
+}
+#head_Super_link #login{
+	color:red;
+}
+
+/* production_select */
+#production_select{
+	position: relative;
+	width: 79%;
+	height: 75%;
+	left:10%;
+	top:5%;
+	/* background: whitesmoke; */
+	/* border: 1px solid hotpink; */
+}
+#production_select #production_select_head{
+	height: 8%;
+	width: 100%;
+	padding: 0;
+}
+#production_select #production_select_head img{
+	width: 8%;
+	height: 90%;
+}
+#production_select #production_select_line{
+	height: 0;
+	width: 100%;
+	padding: 0;
+	border: 2px solid black;
+}
+#production_select > div{
+	position: relative;
+	float: left;
+	width: 15.9%;
+	height: 80%;
+	padding: 0.3%;
+	/* border: 1px solid navajowhite; */
+}
+#production_select .photo{
+	position: relative;
+	width: 100%;
+	height: 70%;
+	/* border: 1px solid red; */
+}
+#production_select .photo img{
+	width: 100%;
+	height: 100%;
+}
+#production_select .message{
+	position: relative;
+	text-align: center;
+	font-family:小篆;
+	width: 100%;
+	height: 15%;
+	/* border: 1px solid navajowhite; */
+}
+#production_select .now_price{
+	color: red;
+}
+#production_select .original_price{
+	color: gray;
+	text-decoration: line-through;
+}
+#production_select .addCart
+{
+	position: relative;
+	text-align: center;
+	font-family: 小篆;
+	width: 100%;
+	height: 10%;
+	color: red;
+
+}

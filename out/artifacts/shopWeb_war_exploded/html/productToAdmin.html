@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/productToAdmin.css"/>
+    <script src="../js/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/Tools.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/productToAdmin.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/adminLogin.js" type="text/javascript" charset="utf-8"></script>
+    <title>全全书店——商品管理</title>
+</head>
+<body>
+
+<div id="head">
+    <div id="Super_link">
+        <div id="head_Super_link">
+            <div class="login_or_reg" id="on_line"><font>管理员，<a href="#" id="pet_name"></a><a href="javascript:void(0)" id="log_off">&nbsp;注销&nbsp;</a></font></div>
+            <div class="a"><a href="../html/orderToAdmin.html">用户订单</a></div>
+            <div class="img"><img src="../img/line.png"></div>
+            <div class="a"><a href="#">商品分类</a></div>
+            <div class="img"><img src="../img/line.png"></div>
+            <div class="a"><a href="#">个人中心</a></div>
+        </div>
+    </div>
+</div>
+
+<div id="theme">商品表</div>
+<div class="productions">
+
+</div>
+
+<div id="addProduction">
+    <div>新增商品表</div>
+    <div id="new">
+        <table>
+            <tr><td><label>商品名</label></td><td><input id="p_id"></td></tr>
+            <tr><td><label>商品图片</label></td><td><img id="p_photo" src=""></td><td><input type="file" accept="image/*" id="photoBtn"></input></td></tr>
+            <tr><td><label>单价</label></td><td><input id="p_price"></td></tr>
+            <tr><td><label>库存</label></td><td><input id="p_nums"></td></tr>
+            <tr><td><label>种类</label></td><td><input id="p_category"></td></tr>
+            <tr><td><label>描述</label></td><td><input id="p_describe"></td></tr>
+        </table>
+    </div>
+    <div class="add">
+        <button class="addBtn">添加商品</button>
+    </div>
+</div>
+
+</body>
+</html>

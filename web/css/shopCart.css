@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* 头部 */
+#head {
+    height: 80px;
+    position: relative;
+    /* border: 1px solid red; */
+}
+/* 超链接部分 */
+#Super_link {
+    height: 80px;
+    width: 750px;
+    position: absolute;
+    right: 0px;
+    /* border: 1px solid blue; */
+}
+
+#head_Super_link {
+    position: relative;
+    height: 50px;
+    /* border: 1px solid red; */
+    margin: 5px 0px;
+
+}
+
+#head_Super_link div {
+    position: relative;
+    float: left;
+    margin: 0px 5px;
+}
+
+#head_Super_link img {
+    height: 20px;
+    width: 20px;
+}
+
+#head_Super_link a {
+    text-decoration: none;
+    color: cadetblue;
+}
+
+
+/*购物车部分*/
+.car{
+    width:60%;
+    border: 1px solid #F88020;
+    border-radius: 18px;
+    margin-left: 300px;
+
+
+}
+.car .good{
+    background-color: #F88020;
+    height:55px;
+    font-size: 22px;
+    color:white;
+    line-height: 55px;
+    font-weight: 200;
+    border-radius: 18px 18px 0 0;
+    margin-bottom: 20px;
+
+}
+.car .good table{
+    width:100%;
+}
+.car .goods{
+    height:45px;
+    line-height: 45px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.car .goods table{
+    width:100%;
+}
+.car .goods table .delBtn{
+    width: 70px;
+    height:28px;
+    border: 2px solid #46B3E6;
+    background-color: white;
+    color: #46B3E6;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.car .goods table button:hover{
+    background-color: #46B3E6;
+    color: white;
+}
+.car .goods1{
+    margin-top: 10px;
+
+    background-color:yellow ;
+    height:50px;
+    font-size: 19px;
+    color:white;
+    line-height: 50px;
+    font-weight: 200;
+    border-radius:0 0 10px 10px ;
+}
+.car .goods2{
+    border-top: 1px solid #F88020;
+    margin-top: 10px;
+    height:50px;
+    font-size: 19px;
+    line-height: 50px;
+    font-weight: 200;
+    border-radius:0 0 10px 10px ;
+}
+.car .goods1 table{
+
+    width:100%;
+}
+.car .goods1 .buyBtn{
+    width: 70px;
+    height:28px;
+    border: 2px solid #21BF73;
+    background-color: white;
+    color: #21BF73;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.car .goods1 .buyBtn:hover{
+    color:white;
+    background-color: #21BF73;
+}
+.car .goods1 .delAllBtn{
+    width: 80px;
+    height:30px;
+    border: 2px solid #FF0000;
+    background-color: white;
+    color: #FF0000;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.car .goods1 .delAllBtn:hover{
+    color:white;
+    background-color:#FF0000 ;
+}

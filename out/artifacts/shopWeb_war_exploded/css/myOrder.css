@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    overflow: auto;
+    text-align: center;
+}
+
+/* 头部 */
+#head {
+    height: 80px;
+    position: relative;
+    /* border: 1px solid red; */
+}
+/* 超链接部分 */
+#Super_link {
+    height: 80px;
+    width: 750px;
+    position: absolute;
+    right: 0px;
+    /* border: 1px solid blue; */
+}
+
+#head_Super_link {
+    position: relative;
+    height: 50px;
+    /* border: 1px solid red; */
+    margin: 5px 0px;
+
+}
+
+#head_Super_link div {
+    position: relative;
+    float: left;
+    margin: 0px 5px;
+}
+
+#head_Super_link img {
+    height: 20px;
+    width: 20px;
+}
+
+#head_Super_link a {
+    text-decoration: none;
+    color: cadetblue;
+}
+
+/*订单部分*/
+.order
+{
+    width: 80%;
+    border: 1px solid #F88020;
+    border-radius: 18px;
+    margin-left: 220px;
+    overflow: auto;
+}
+.order .tilte{
+    background-color: #F88020;
+    height:55px;
+    font-size: 22px;
+    color:white;
+    line-height: 55px;
+    font-weight: 200;
+    border-radius: 18px 18px 0 0;
+    margin-bottom: 20px;
+
+}
+.order .title table
+{
+    width: 100%;
+
+}
+.order .item{
+    line-height: 45px;
+    font-size: 20px;
+    font-weight: 200;
+    overflow: auto;
+}
+.order .item table{
+    width:100%;
+}
