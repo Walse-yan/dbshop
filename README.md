@@ -10,10 +10,6 @@ javaWeb购物网站
 + src存放servlet、beans、dao、utils、service的服务器处理代码
 + web存放js、html、css、jsp、web.xml和lib库
 + pox.xml是存放maven引入的包信息
-+ shopdb.sql存放mysql表及其数据信息
-
-+ 作者：颜经全
-+ 学号：201930344244
 
 
 
